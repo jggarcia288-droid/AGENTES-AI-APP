@@ -1,0 +1,14 @@
+[functions.scrape-url]
+verify_jwt = false
+
+[functions.chat-agent]
+verify_jwt = false
+
+[functions.train-brand]
+verify_jwt = false
+
+[functions.train-facebook]
+verify_jwt = false
+
+[functions.webhook]
+verify_jwt = false
