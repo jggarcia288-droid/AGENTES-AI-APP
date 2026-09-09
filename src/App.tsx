@@ -357,7 +357,7 @@ function MarcaDetail({ marca, channels, showToast, onDataChange, onClose }: {
         setFbLoading(false);
         showToast('Login cancelado');
       }
-    }, { scope: 'pages_show_list,pages_read_engagement,pages_read_user_content' });
+  }, { scope: 'pages_show_list,pages_read_engagement' });
   }
 
   async function pickFacebookPage(page: { id: string; name: string; access_token: string }) {
